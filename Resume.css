@@ -1,0 +1,43 @@
+@media screen and (max-width: 40em) {
+    .column {
+      width: 100%;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+  }
+
+p q {
+    font-style: italic;
+    font-weight: 700;
+}
+main, header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 75px;
+}
+
+h1 {
+    text-align: left;
+    font-style: oblique;
+}
+.row {
+    border: dotted 2px lightgray;
+    display: flex;
+   
+}
+.column {
+    flex: 70%;
+    padding-left: 30px;
+    padding-right: 10px;
+  
+}
+small {
+    text-align: right;
+}
+
+main h2{
+    text-align: center;
+    background-color: lavender;
+}
+
+
